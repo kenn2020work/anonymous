@@ -315,9 +315,13 @@
                 font-size: 16px;
   
                 a {
-                  padding: 15px 0 5px;
+                  padding: 0 0 5px;
                   text-decoration: none;
                   color: white;
+
+                  i {
+                    margin: 0 5px 0 0;
+                  }
   
                   &:hover {
                     border-bottom: solid 1px white;
