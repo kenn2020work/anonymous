@@ -4,8 +4,6 @@
 
   body {
     background-color: white;
-    min-width: 1300px;
-    box-sizing: border-box;
     position: relative;
 
     #wrapper {
@@ -185,7 +183,7 @@
 
       #contents {
         margin: 0 auto;
-        width: 1140px;
+        
 
         .information {
           width: 100%;
@@ -248,8 +246,8 @@
           }
 
           .container {
-            margin: 20px auto 0;
-            width: 360px;
+            width: 60%;
+            margin: 0 auto;
             box-sizing: border-box;
 
             p {
@@ -280,8 +278,7 @@
         color: white;
 
         .wf {
-          width: 1080px;
-          margin: 0 auto;
+          margin: 0 5%;
 
           .pagetop {
             text-align: center;
@@ -350,6 +347,7 @@
     body {
       #wrapper {
         header {
+
           nav {
             display: block;
           }
@@ -378,16 +376,12 @@
         #contents {
           .information {
             float: left;
-            width: 540px;
-  
-            .container {
-              width: 540px;
-            }
+            width: 50%;
           }
   
           .discography {
             float: right;
-            width: 540px;
+            width: 50%;
           }
         }
       }
