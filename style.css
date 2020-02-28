@@ -22,6 +22,17 @@
   box-sizing: border-box;
 }
 
+* body #wrapper header i {
+  float: right;
+  font-size: 3rem;
+  color: #ddd;
+  margin: 1.7rem 0.5rem 0 0;
+}
+
+* body #wrapper header i:hover {
+  color: black;
+}
+
 * body #wrapper header h1 {
   margin: 0 auto 25px;
   width: 200px;
@@ -344,6 +355,9 @@
     padding: 10px 0 0;
     height: 150px;
   }
+  * body #wrapper header i {
+    display: none;
+  }
   * body #wrapper header nav {
     display: block;
   }
@@ -382,6 +396,9 @@
   * body #wrapper header {
     padding: 40px 0 0;
     height: 190px;
+  }
+  * body #wrapper header i {
+    display: none;
   }
   * body #wrapper header nav {
     display: block;
