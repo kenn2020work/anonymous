@@ -7,12 +7,11 @@
     position: relative;
 
     #wrapper {
-      padding: 190px 0 0;
+      padding: 100px 0 0;
 
       header {
-        padding: 40px 0 0;
         width: 100%;
-        height: 190px;
+        height: 100px;
         position: absolute;
         top: 0;
         left: 0;
@@ -142,7 +141,6 @@
 
               .f {
                 width: 100%;
-                text-align: center;
 
                 img {
                   max-width: 100%;
@@ -187,7 +185,7 @@
 
         .information {
           width: 100%;
-          height: 510px;
+          margin: 0 0 100px;
 
           h2 {
             margin: 0 0 50px;
@@ -236,7 +234,7 @@
 
         .discography {
           width: 100%;
-          height: 510px;
+          
 
           h2 {
             margin: 0 0 50px;
@@ -258,6 +256,7 @@
               }
 
               span {
+                margin: 10px 0 5px;
                 display: block;
               }
             }
@@ -285,15 +284,13 @@
             margin: 0 0 30px;
             
             a {
-              text-align: center;
+              display: inline-block;
+              width: 30px;
               color: white;
               text-decoration: none;
 
               &:hover {
-                color: black;
-                background-color: white;
-                border: solid 1px white;
-                border-radius: 5px;
+                border-top: solid 1px white;
               }
             }
           }
@@ -346,7 +343,11 @@
   * {
     body {
       #wrapper {
+        padding: 150px 0 0;
+
         header {
+          padding: 10px 0 0;
+          height: 150px;
 
           nav {
             display: block;
@@ -383,6 +384,66 @@
             float: right;
             width: 50%;
           }
+        }
+        footer {
+          margin: 0;
+        }
+      }
+    }
+  }
+}
+
+
+@media screen and (min-width: 960px) {
+
+  * {
+    body {
+      #wrapper {
+        padding: 190px 0 0;
+
+        header {
+          padding: 40px 0 0;
+          height: 190px;
+
+          nav {
+            display: block;
+          }
+        }
+        #main {
+          .container {
+            .img {
+              .box1 {
+                width: 30%;
+                float: left;
+              }
+              .box2 {
+                float: left;
+                width: 43%;
+              }
+              .box3 {
+                width: 27%;
+                float: left;
+              }
+            }
+            .bars {
+              display: block;
+            }
+          }
+        }
+        #contents {
+          .information {
+            float: left;
+            width: 50%;
+          }
+  
+          .discography {
+            float: right;
+            width: 50%;
+          }
+        }
+
+        footer {
+          margin: 100px 0 0;
         }
       }
     }
