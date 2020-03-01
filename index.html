@@ -5,11 +5,11 @@
 <title>Anonymous - OFFICIAL SITE</title>
 <link rel="stylesheet" href="style.css">
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.9.0/css/all.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
 </head>
 <body>
 <div id="wrapper">
-  <header>
-    <i class="fas fa-bars"></i>
+  <header #="header">
     <h1><a href="#">Anonymous</a></h1>
     <nav>
       <ul>
@@ -71,9 +71,14 @@
       </div>
     </section>
   </div>
+  <div id="slide">
+    <div class="slide1"><img src="image/kokoro.jpg"></div>
+    <div class="slide2"><img src="image/jacket1.jpg"></div>
+    <div class="slide3"><img src="image/jacket2.jpg"></div>
+  </div>
   <footer id="footer">
     <div class="wf">
-      <div class="pagetop"><a href="#"><i class="fas fa-chevron-up"></i></a></div>
+      <div class="pagetop"><a href="#" id="top"><i class="fas fa-chevron-up"></i></a></div>
       <section class="sns">
         <h2 class="hd">SNS</h2>
         <ul>
@@ -85,6 +90,22 @@
       <small><span>&copy;</span> Anonymous</small>
     </div>
   </footer>
+  <i class="fas fa-bars " id="btn"></i>
+  <div id="toggle">
+    <nav>
+      <ul>
+        <li class="news"><a href="#">NEWS</a></li>
+        <li class="media"><a href="#">MEDIA</a></li>
+        <li class="live"><a href="#">LIVE</a></li>
+        <li class="event"><a href="#">EVENT</a></li>
+        <li class="profile"><a href="#">PROFILE</a></li>
+        <li class="discography"><a href="#">DISCOGRAPHY</a></li>
+        <li class="goods"><a href="#">GOODS</a></li>
+        <li class="contact"><a href="#">CONTACT</a></li>
+      </ul>
+    </nav>
+  </div>
 </div>
+<script src="app.js"></script>
 </body>
 </html>
